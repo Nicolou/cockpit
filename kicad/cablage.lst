@@ -1,0 +1,64 @@
+eeschema (2013-jul-07)-stable  >> Creation date: lun. 02 févr. 2015 22:11:08 CET
+#Cmp ( order = Reference )
+| Alim1      NAV.        
+| ALTERNATEUR1 SWITCH_INV  
+| BATTERIE1  SWITCH_INV  
+| Coté_usb1 Platine Accueil Teensy
+| D1         LED BAT.    
+| MAGNETO1   SWROTA5     
+| Nav1       ENCODMINI   
+| Nav2       ENCODMINI   
+| POMPE1     SWITCH_INV  
+| R1         2.2k        
+| R2         3.3k        
+| R3         2.2k        
+| R4         3.3k        
+| R5         2.2k        
+| Radio1     Radio Khz   
+| Radio2     ENCODMINI   
+| Rechauffe1 SWITCH_INV  
+| SW1        SWITCH_INV  
+| SW2        SWITCH_INV  
+| SW3        SWITCH_INV  
+| SW4        SWITCH_INV  
+| SW5        SWITCH_INV  
+| SW6        SWITCH_INV  
+| SW7        SWITCH_INV  
+| SW_Landing_Gear1 SWITCH_INV  
+| SW_NAV1    SW_PUSH     
+| SW_RADIO1  SW_PUSH     
+| teensy1    CONN_4X2    
+#End Cmp
+
+#Cmp ( order = Value )
+| NAV.         Alim1     
+| SWITCH_INV   ALTERNATEUR1
+| SWITCH_INV   SW_Landing_Gear1
+| SW_PUSH      SW_NAV1   
+| LED BAT.     D1        
+| SWROTA5      MAGNETO1  
+| ENCODMINI    Nav1      
+| ENCODMINI    Nav2      
+| SWITCH_INV   POMPE1    
+| 2.2k         R1        
+| 2.2k         R3        
+| 2.2k         R5        
+| 3.3k         R2        
+| 3.3k         R4        
+| SW_PUSH      SW_RADIO1 
+| SWITCH_INV   BATTERIE1 
+| Radio Khz    Radio1    
+| ENCODMINI    Radio2    
+| SWITCH_INV   Rechauffe1
+| SWITCH_INV   SW1       
+| SWITCH_INV   SW2       
+| SWITCH_INV   SW3       
+| SWITCH_INV   SW4       
+| SWITCH_INV   SW5       
+| SWITCH_INV   SW6       
+| SWITCH_INV   SW7       
+| Platine Accueil Teensy Coté_usb1
+| CONN_4X2     teensy1   
+#End Cmp
+
+#End List

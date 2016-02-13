@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun. 02 févr. 2015 22:09:22 CET
+
+BeginCmp
+TimeStamp = /54D00663;
+Reference = Alim1;
+ValeurCmp = NAV.;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE67B1;
+Reference = ALTERNATEUR1;
+ValeurCmp = SWITCH_INV;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE67AB;
+Reference = BATTERIE1;
+ValeurCmp = SWITCH_INV;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD37A;
+Reference = Coté_usb1;
+ValeurCmp = Platine Accueil Teensy;
+IdModule  = DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFFA12;
+Reference = D1;
+ValeurCmp = LED BAT.;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE6E48;
+Reference = MAGNETO1;
+ValeurCmp = SWROTA5;
+IdModule  = bornier6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD35C;
+Reference = Nav1;
+ValeurCmp = ENCODMINI;
+IdModule  = bornier5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD36B;
+Reference = Nav2;
+ValeurCmp = ENCODMINI;
+IdModule  = bornier5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE679F;
+Reference = POMPE1;
+ValeurCmp = SWITCH_INV;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD5FD;
+Reference = R1;
+ValeurCmp = 2.2k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD5DF;
+Reference = R2;
+ValeurCmp = 3.3k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD60C;
+Reference = R3;
+ValeurCmp = 2.2k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD5EE;
+Reference = R4;
+ValeurCmp = 3.3k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFFA40;
+Reference = R5;
+ValeurCmp = 2.2k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD33E;
+Reference = Radio1;
+ValeurCmp = Radio Khz;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD34D;
+Reference = Radio2;
+ValeurCmp = ENCODMINI;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE67A5;
+Reference = Rechauffe1;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE646B;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE64BB;
+Reference = SW2;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE64C7;
+Reference = SW3;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE6570;
+Reference = SW4;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE6576;
+Reference = SW5;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE657C;
+Reference = SW6;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE65B0;
+Reference = SW7;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE6749;
+Reference = SW_Landing_Gear1;
+ValeurCmp = SWITCH_INV;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE633C;
+Reference = SW_NAV1;
+ValeurCmp = SW_PUSH;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CE632D;
+Reference = SW_RADIO1;
+ValeurCmp = SW_PUSH;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CFD389;
+Reference = teensy1;
+ValeurCmp = CONN_4X2;
+IdModule  = DIP-8__300;
+EndCmp
+
+EndListe

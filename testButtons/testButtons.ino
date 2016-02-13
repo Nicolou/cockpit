@@ -7,11 +7,12 @@
     date : 2-2-2015
     
 */
-const int numButtons = 36;  //36 for Teensy++
+const int numButtons = 28;  //36 for Teensy++
 
 byte allButtons[numButtons]; //use to store current state of buttons
 byte prevButtons[numButtons]; //use to store last state of buttons
 
+int val3, val3b;     //analog value 
 
 void setup() {                
   Serial.begin(38400);
@@ -25,6 +26,11 @@ void setup() {
     prevButtons[i] = 0;
   }
   Serial.println("Begin Complete for the Test");
+
+
+  
+  val3b=0;
+
 }
 
 
@@ -61,6 +67,19 @@ void loop()
     prevButtons[i] = allButtons[i];
   }
   
+  //print analog
+  val3 = analogRead(7);
+  
+  if ( val3b != val3 ) {
+    Serial.print("analog A7 is pin number :");
+    Serial.print(PIN_A7);
+    Serial.print(" and has value : ");
+    Serial.println(val3, DEC);
+    val3b=val3;
+      
+  }
+
+
 
   //wait 100 ms
   delay(100);
