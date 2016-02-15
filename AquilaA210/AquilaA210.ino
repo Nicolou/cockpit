@@ -121,10 +121,8 @@ FlightSimInteger xBattery;
 FlightSimInteger xGenerator;
 FlightSimInteger xAvionic;
 FlightSimInteger xLandLight;
-FlightSimInteger xTaxyLight;
 FlightSimInteger xNavLight;
 FlightSimInteger xStrobeLight;
-FlightSimInteger xBeaconLight;
 FlightSimInteger xPanelLight;
 FlightSimFloat xCarbHeat;
 FlightSimInteger xFuelPump;
@@ -143,8 +141,6 @@ FlightSimInteger xSquawkMode;
 FlightSimCommand xSquawkSendId;
 FlightSimFloat xBaroAltimeter;
 FlightSimFloat xDirectionalGyroDrift;
-FlightSimCommand xLandingGearUp;
-FlightSimCommand xLandingGearDown;
 FlightSimFloat xFlapRatio;
 FlightSimFloat xPropeller;
 FlightSimFloat xHeadingVOR1;
@@ -208,11 +204,9 @@ void setup() {
     xGenerator = XPlaneRef("sim/cockpit2/electrical/generator_on[0]");
     xAvionic = XPlaneRef("sim/cockpit2/switches/avionics_power_on");
     xLandLight = XPlaneRef("sim/cockpit2/switches/landing_lights_on");
-    xTaxyLight = XPlaneRef("sim/cockpit2/switches/taxi_light_on");
     xNavLight = XPlaneRef("sim/cockpit2/switches/navigation_lights_on");
     xStrobeLight = XPlaneRef("sim/cockpit2/switches/strobe_lights_on");
-    xBeaconLight = XPlaneRef("sim/cockpit2/switches/beacon_on");
-    xPanelLight = XPlaneRef("sim/cockpit2/switches/instrument_brightness_ratio[0]");
+    xPanelLight = XPlaneRef("sim/pcx/night_light_toggle");
     xCarbHeat = XPlaneRef("sim/cockpit2/engine/actuators/carb_heat_ratio");
     xFuelPump = XPlaneRef("sim/cockpit2/engine/actuators/fuel_pump_on[0]");
   
@@ -227,8 +221,6 @@ void setup() {
     xNavFineUp = XPlaneRef("sim/radios/stby_nav1_fine_up");
     xNavFineDown = XPlaneRef("sim/radios/stby_nav1_fine_down");
     
-    xLandingGearUp = XPlaneRef("sim/flight_controls/landing_gear_up");
-    xLandingGearDown = XPlaneRef("sim/flight_controls/landing_gear_down");
     
     xFlapRatio= XPlaneRef("sim/cockpit2/controls/flap_ratio");
     xPropeller= XPlaneRef("sim/cockpit2/engine/actuators/prop_rotation_speed_rad_sec_all");
